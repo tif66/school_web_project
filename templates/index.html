@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    <meta charset="UTF-8">
+    <title>אתר בדיחות - דף הבית</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+{% include 'nav.html' %}
+
+<h1>ברוכים הבאים לאתר הבדיחות הטוב בעולם!</h1>
+
+<h3>בדיחה אקראית:</h3>
+<div id="randomJoke" class="box">טוען...</div>
+<button onclick="loadRandomJoke()">בדיחה חדשה</button>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

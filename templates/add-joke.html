@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    <meta charset="UTF-8">
+    <title>הוסף בדיחה</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+{% include 'nav.html' %}
+
+<h1>הוסף בדיחה חדשה</h1>
+
+<textarea id="jokeInput" rows="4" placeholder="כתוב בדיחה..."></textarea>
+<button onclick="addJoke()">הוסף</button>
+
+<div id="msg"></div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
